@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9160E73C155B392A00DA3F8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9160E73B155B392A00DA3F8D /* Cocoa.framework */; };
+		9160E746155B392A00DA3F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9160E744155B392A00DA3F8D /* InfoPlist.strings */; };
+		9160E748155B392A00DA3F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9160E747155B392A00DA3F8D /* main.m */; };
+		9160E74C155B392A00DA3F8D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9160E74A155B392A00DA3F8D /* Credits.rtf */; };
+		9160E74F155B392A00DA3F8D /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9160E74E155B392A00DA3F8D /* WCAppDelegate.m */; };
+		9160E752155B392A00DA3F8D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9160E750155B392A00DA3F8D /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9160E737155B392A00DA3F8D /* windchime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windchime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9160E73B155B392A00DA3F8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9160E73E155B392A00DA3F8D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9160E73F155B392A00DA3F8D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9160E740155B392A00DA3F8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9160E743155B392A00DA3F8D /* windchime-Info.plist */ = {isa = PBXFileReference; path = "windchime-Info.plist"; sourceTree = "<group>"; };
+		9160E745155B392A00DA3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9160E747155B392A00DA3F8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9160E749155B392A00DA3F8D /* windchime-Prefix.pch */ = {isa = PBXFileReference; path = "windchime-Prefix.pch"; sourceTree = "<group>"; };
+		9160E74B155B392A00DA3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9160E74D155B392A00DA3F8D /* WCAppDelegate.h */ = {isa = PBXFileReference; path = WCAppDelegate.h; sourceTree = "<group>"; };
+		9160E74E155B392A00DA3F8D /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
+		9160E751155B392A00DA3F8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9160E734155B392A00DA3F8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9160E73C155B392A00DA3F8D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9160E72C155B392A00DA3F8D = {
+			isa = PBXGroup;
+			children = (
+				9160E741155B392A00DA3F8D /* windchime */,
+				9160E73A155B392A00DA3F8D /* Frameworks */,
+				9160E738155B392A00DA3F8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9160E738155B392A00DA3F8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9160E737155B392A00DA3F8D /* windchime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9160E73A155B392A00DA3F8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9160E73B155B392A00DA3F8D /* Cocoa.framework */,
+				9160E73D155B392A00DA3F8D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9160E73D155B392A00DA3F8D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9160E73E155B392A00DA3F8D /* AppKit.framework */,
+				9160E73F155B392A00DA3F8D /* CoreData.framework */,
+				9160E740155B392A00DA3F8D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9160E741155B392A00DA3F8D /* windchime */ = {
+			isa = PBXGroup;
+			children = (
+				9160E74D155B392A00DA3F8D /* WCAppDelegate.h */,
+				9160E74E155B392A00DA3F8D /* WCAppDelegate.m */,
+				9160E750155B392A00DA3F8D /* MainMenu.xib */,
+				9160E742155B392A00DA3F8D /* Supporting Files */,
+			);
+			path = windchime;
+			sourceTree = "<group>";
+		};
+		9160E742155B392A00DA3F8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9160E743155B392A00DA3F8D /* windchime-Info.plist */,
+				9160E744155B392A00DA3F8D /* InfoPlist.strings */,
+				9160E747155B392A00DA3F8D /* main.m */,
+				9160E749155B392A00DA3F8D /* windchime-Prefix.pch */,
+				9160E74A155B392A00DA3F8D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9160E736155B392A00DA3F8D /* windchime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9160E755155B392A00DA3F8D /* Build configuration list for PBXNativeTarget "windchime" */;
+			buildPhases = (
+				9160E733155B392A00DA3F8D /* Sources */,
+				9160E734155B392A00DA3F8D /* Frameworks */,
+				9160E735155B392A00DA3F8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = windchime;
+			productName = windchime;
+			productReference = 9160E737155B392A00DA3F8D /* windchime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9160E72E155B392A00DA3F8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9160E731155B392A00DA3F8D /* Build configuration list for PBXProject "windchime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9160E72C155B392A00DA3F8D;
+			productRefGroup = 9160E738155B392A00DA3F8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9160E736155B392A00DA3F8D /* windchime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9160E735155B392A00DA3F8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9160E746155B392A00DA3F8D /* InfoPlist.strings in Resources */,
+				9160E74C155B392A00DA3F8D /* Credits.rtf in Resources */,
+				9160E752155B392A00DA3F8D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9160E733155B392A00DA3F8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9160E748155B392A00DA3F8D /* main.m in Sources */,
+				9160E74F155B392A00DA3F8D /* WCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9160E744155B392A00DA3F8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9160E745155B392A00DA3F8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9160E74A155B392A00DA3F8D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9160E74B155B392A00DA3F8D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9160E750155B392A00DA3F8D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9160E751155B392A00DA3F8D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9160E753155B392A00DA3F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9160E754155B392A00DA3F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9160E756155B392A00DA3F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windchime/windchime-Prefix.pch";
+				INFOPLIST_FILE = "windchime/windchime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9160E757155B392A00DA3F8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "windchime/windchime-Prefix.pch";
+				INFOPLIST_FILE = "windchime/windchime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9160E731155B392A00DA3F8D /* Build configuration list for PBXProject "windchime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9160E753155B392A00DA3F8D /* Debug */,
+				9160E754155B392A00DA3F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9160E755155B392A00DA3F8D /* Build configuration list for PBXNativeTarget "windchime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9160E756155B392A00DA3F8D /* Debug */,
+				9160E757155B392A00DA3F8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9160E72E155B392A00DA3F8D /* Project object */;
+}
