@@ -7,6 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AudioToolbox/MusicPlayer.h>
 
 @interface WCAppDelegate : NSObject <NSApplicationDelegate>
 
