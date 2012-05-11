@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WCController : NSObject
-
+@interface WCController : NSObject {
+// UI
+    NSStatusItem *statusItem;
+    NSMenu *menu;
+    NSMenuItem *quitMI;
+    NSMenuItem *aboutMI;
+    NSImage *tiny;
+}
 @end
