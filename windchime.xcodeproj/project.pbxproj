@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9114E4BC15689A9700E0FE6D /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9114E4BB15689A9700E0FE6D /* AudioUnit.framework */; };
 		9160E73C155B392A00DA3F8D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9160E73B155B392A00DA3F8D /* Cocoa.framework */; };
 		9160E746155B392A00DA3F8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9160E744155B392A00DA3F8D /* InfoPlist.strings */; };
 		9160E748155B392A00DA3F8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9160E747155B392A00DA3F8D /* main.m */; };
@@ -48,6 +49,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9114E4BB15689A9700E0FE6D /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		9160E737155B392A00DA3F8D /* windchime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windchime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9160E73B155B392A00DA3F8D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9160E73E155B392A00DA3F8D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9114E4BC15689A9700E0FE6D /* AudioUnit.framework in Frameworks */,
 				9160E75B155B503C00DA3F8D /* AudioToolbox.framework in Frameworks */,
 				9160E759155B4FE800DA3F8D /* CoreAudio.framework in Frameworks */,
 				9160E73C155B392A00DA3F8D /* Cocoa.framework in Frameworks */,
@@ -113,6 +116,7 @@
 		9160E72C155B392A00DA3F8D = {
 			isa = PBXGroup;
 			children = (
+				9114E4BB15689A9700E0FE6D /* AudioUnit.framework */,
 				9173616B155C88D40072AC22 /* windchime.png */,
 				9160E75C155B54DC00DA3F8D /* Resources */,
 				9160E75A155B503C00DA3F8D /* AudioToolbox.framework */,
