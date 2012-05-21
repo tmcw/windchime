@@ -18,34 +18,6 @@
 		9160E75B155B503C00DA3F8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9160E75A155B503C00DA3F8D /* AudioToolbox.framework */; };
 		9173616C155C88D40072AC22 /* windchime.png in Resources */ = {isa = PBXBuildFile; fileRef = 9173616B155C88D40072AC22 /* windchime.png */; };
 		91736170155C891D0072AC22 /* WCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9173616F155C891D0072AC22 /* WCController.m */; };
-		9173618E155C8BA20072AC22 /* 1st-violins-stc-rr1-a#3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736172155C8BA20072AC22 /* 1st-violins-stc-rr1-a#3.aiff */; };
-		9173618F155C8BA20072AC22 /* 1st-violins-stc-rr1-a#4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736173155C8BA20072AC22 /* 1st-violins-stc-rr1-a#4.aiff */; };
-		91736190155C8BA20072AC22 /* 1st-violins-stc-rr1-a#5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736174155C8BA20072AC22 /* 1st-violins-stc-rr1-a#5.aiff */; };
-		91736191155C8BA20072AC22 /* 1st-violins-stc-rr1-a#6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736175155C8BA20072AC22 /* 1st-violins-stc-rr1-a#6.aiff */; };
-		91736192155C8BA20072AC22 /* 1st-violins-stc-rr1-c#4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736176155C8BA20072AC22 /* 1st-violins-stc-rr1-c#4.aiff */; };
-		91736193155C8BA20072AC22 /* 1st-violins-stc-rr1-c#5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736177155C8BA20072AC22 /* 1st-violins-stc-rr1-c#5.aiff */; };
-		91736194155C8BA20072AC22 /* 1st-violins-stc-rr1-c#6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736178155C8BA20072AC22 /* 1st-violins-stc-rr1-c#6.aiff */; };
-		91736195155C8BA20072AC22 /* 1st-violins-stc-rr1-e4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736179155C8BA20072AC22 /* 1st-violins-stc-rr1-e4.aiff */; };
-		91736196155C8BA20072AC22 /* 1st-violins-stc-rr1-e5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617A155C8BA20072AC22 /* 1st-violins-stc-rr1-e5.aiff */; };
-		91736197155C8BA20072AC22 /* 1st-violins-stc-rr1-e6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617B155C8BA20072AC22 /* 1st-violins-stc-rr1-e6.aiff */; };
-		91736198155C8BA20072AC22 /* 1st-violins-stc-rr1-g3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617C155C8BA20072AC22 /* 1st-violins-stc-rr1-g3.aiff */; };
-		91736199155C8BA20072AC22 /* 1st-violins-stc-rr1-g4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617D155C8BA20072AC22 /* 1st-violins-stc-rr1-g4.aiff */; };
-		9173619A155C8BA20072AC22 /* 1st-violins-stc-rr1-g5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617E155C8BA20072AC22 /* 1st-violins-stc-rr1-g5.aiff */; };
-		9173619B155C8BA20072AC22 /* 1st-violins-stc-rr1-g6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173617F155C8BA20072AC22 /* 1st-violins-stc-rr1-g6.aiff */; };
-		9173619C155C8BA20072AC22 /* 1st-violins-stc-rr2-a#3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736180155C8BA20072AC22 /* 1st-violins-stc-rr2-a#3.aiff */; };
-		9173619D155C8BA20072AC22 /* 1st-violins-stc-rr2-a#4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736181155C8BA20072AC22 /* 1st-violins-stc-rr2-a#4.aiff */; };
-		9173619E155C8BA20072AC22 /* 1st-violins-stc-rr2-a#5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736182155C8BA20072AC22 /* 1st-violins-stc-rr2-a#5.aiff */; };
-		9173619F155C8BA20072AC22 /* 1st-violins-stc-rr2-a#6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736183155C8BA20072AC22 /* 1st-violins-stc-rr2-a#6.aiff */; };
-		917361A0155C8BA20072AC22 /* 1st-violins-stc-rr2-c#4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736184155C8BA20072AC22 /* 1st-violins-stc-rr2-c#4.aiff */; };
-		917361A1155C8BA20072AC22 /* 1st-violins-stc-rr2-c#5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736185155C8BA20072AC22 /* 1st-violins-stc-rr2-c#5.aiff */; };
-		917361A2155C8BA20072AC22 /* 1st-violins-stc-rr2-c#6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736186155C8BA20072AC22 /* 1st-violins-stc-rr2-c#6.aiff */; };
-		917361A3155C8BA20072AC22 /* 1st-violins-stc-rr2-e4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736187155C8BA20072AC22 /* 1st-violins-stc-rr2-e4.aiff */; };
-		917361A4155C8BA20072AC22 /* 1st-violins-stc-rr2-e5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736188155C8BA20072AC22 /* 1st-violins-stc-rr2-e5.aiff */; };
-		917361A5155C8BA20072AC22 /* 1st-violins-stc-rr2-e6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 91736189155C8BA20072AC22 /* 1st-violins-stc-rr2-e6.aiff */; };
-		917361A6155C8BA20072AC22 /* 1st-violins-stc-rr2-g3.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173618A155C8BA20072AC22 /* 1st-violins-stc-rr2-g3.aiff */; };
-		917361A7155C8BA20072AC22 /* 1st-violins-stc-rr2-g4.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173618B155C8BA20072AC22 /* 1st-violins-stc-rr2-g4.aiff */; };
-		917361A8155C8BA20072AC22 /* 1st-violins-stc-rr2-g5.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173618C155C8BA20072AC22 /* 1st-violins-stc-rr2-g5.aiff */; };
-		917361A9155C8BA20072AC22 /* 1st-violins-stc-rr2-g6.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 9173618D155C8BA20072AC22 /* 1st-violins-stc-rr2-g6.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,34 +40,6 @@
 		9173616B155C88D40072AC22 /* windchime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windchime.png; sourceTree = "<group>"; };
 		9173616E155C891D0072AC22 /* WCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCController.h; sourceTree = "<group>"; };
 		9173616F155C891D0072AC22 /* WCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCController.m; sourceTree = "<group>"; };
-		91736172155C8BA20072AC22 /* 1st-violins-stc-rr1-a#3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-a#3.aiff"; sourceTree = "<group>"; };
-		91736173155C8BA20072AC22 /* 1st-violins-stc-rr1-a#4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-a#4.aiff"; sourceTree = "<group>"; };
-		91736174155C8BA20072AC22 /* 1st-violins-stc-rr1-a#5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-a#5.aiff"; sourceTree = "<group>"; };
-		91736175155C8BA20072AC22 /* 1st-violins-stc-rr1-a#6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-a#6.aiff"; sourceTree = "<group>"; };
-		91736176155C8BA20072AC22 /* 1st-violins-stc-rr1-c#4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-c#4.aiff"; sourceTree = "<group>"; };
-		91736177155C8BA20072AC22 /* 1st-violins-stc-rr1-c#5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-c#5.aiff"; sourceTree = "<group>"; };
-		91736178155C8BA20072AC22 /* 1st-violins-stc-rr1-c#6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-c#6.aiff"; sourceTree = "<group>"; };
-		91736179155C8BA20072AC22 /* 1st-violins-stc-rr1-e4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-e4.aiff"; sourceTree = "<group>"; };
-		9173617A155C8BA20072AC22 /* 1st-violins-stc-rr1-e5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-e5.aiff"; sourceTree = "<group>"; };
-		9173617B155C8BA20072AC22 /* 1st-violins-stc-rr1-e6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-e6.aiff"; sourceTree = "<group>"; };
-		9173617C155C8BA20072AC22 /* 1st-violins-stc-rr1-g3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-g3.aiff"; sourceTree = "<group>"; };
-		9173617D155C8BA20072AC22 /* 1st-violins-stc-rr1-g4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-g4.aiff"; sourceTree = "<group>"; };
-		9173617E155C8BA20072AC22 /* 1st-violins-stc-rr1-g5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-g5.aiff"; sourceTree = "<group>"; };
-		9173617F155C8BA20072AC22 /* 1st-violins-stc-rr1-g6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr1-g6.aiff"; sourceTree = "<group>"; };
-		91736180155C8BA20072AC22 /* 1st-violins-stc-rr2-a#3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-a#3.aiff"; sourceTree = "<group>"; };
-		91736181155C8BA20072AC22 /* 1st-violins-stc-rr2-a#4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-a#4.aiff"; sourceTree = "<group>"; };
-		91736182155C8BA20072AC22 /* 1st-violins-stc-rr2-a#5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-a#5.aiff"; sourceTree = "<group>"; };
-		91736183155C8BA20072AC22 /* 1st-violins-stc-rr2-a#6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-a#6.aiff"; sourceTree = "<group>"; };
-		91736184155C8BA20072AC22 /* 1st-violins-stc-rr2-c#4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-c#4.aiff"; sourceTree = "<group>"; };
-		91736185155C8BA20072AC22 /* 1st-violins-stc-rr2-c#5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-c#5.aiff"; sourceTree = "<group>"; };
-		91736186155C8BA20072AC22 /* 1st-violins-stc-rr2-c#6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-c#6.aiff"; sourceTree = "<group>"; };
-		91736187155C8BA20072AC22 /* 1st-violins-stc-rr2-e4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-e4.aiff"; sourceTree = "<group>"; };
-		91736188155C8BA20072AC22 /* 1st-violins-stc-rr2-e5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-e5.aiff"; sourceTree = "<group>"; };
-		91736189155C8BA20072AC22 /* 1st-violins-stc-rr2-e6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-e6.aiff"; sourceTree = "<group>"; };
-		9173618A155C8BA20072AC22 /* 1st-violins-stc-rr2-g3.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-g3.aiff"; sourceTree = "<group>"; };
-		9173618B155C8BA20072AC22 /* 1st-violins-stc-rr2-g4.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-g4.aiff"; sourceTree = "<group>"; };
-		9173618C155C8BA20072AC22 /* 1st-violins-stc-rr2-g5.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-g5.aiff"; sourceTree = "<group>"; };
-		9173618D155C8BA20072AC22 /* 1st-violins-stc-rr2-g6.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "1st-violins-stc-rr2-g6.aiff"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,44 +126,8 @@
 		9160E75C155B54DC00DA3F8D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				91736171155C8B6A0072AC22 /* Samples */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		91736171155C8B6A0072AC22 /* Samples */ = {
-			isa = PBXGroup;
-			children = (
-				91736172155C8BA20072AC22 /* 1st-violins-stc-rr1-a#3.aiff */,
-				91736173155C8BA20072AC22 /* 1st-violins-stc-rr1-a#4.aiff */,
-				91736174155C8BA20072AC22 /* 1st-violins-stc-rr1-a#5.aiff */,
-				91736175155C8BA20072AC22 /* 1st-violins-stc-rr1-a#6.aiff */,
-				91736176155C8BA20072AC22 /* 1st-violins-stc-rr1-c#4.aiff */,
-				91736177155C8BA20072AC22 /* 1st-violins-stc-rr1-c#5.aiff */,
-				91736178155C8BA20072AC22 /* 1st-violins-stc-rr1-c#6.aiff */,
-				91736179155C8BA20072AC22 /* 1st-violins-stc-rr1-e4.aiff */,
-				9173617A155C8BA20072AC22 /* 1st-violins-stc-rr1-e5.aiff */,
-				9173617B155C8BA20072AC22 /* 1st-violins-stc-rr1-e6.aiff */,
-				9173617C155C8BA20072AC22 /* 1st-violins-stc-rr1-g3.aiff */,
-				9173617D155C8BA20072AC22 /* 1st-violins-stc-rr1-g4.aiff */,
-				9173617E155C8BA20072AC22 /* 1st-violins-stc-rr1-g5.aiff */,
-				9173617F155C8BA20072AC22 /* 1st-violins-stc-rr1-g6.aiff */,
-				91736180155C8BA20072AC22 /* 1st-violins-stc-rr2-a#3.aiff */,
-				91736181155C8BA20072AC22 /* 1st-violins-stc-rr2-a#4.aiff */,
-				91736182155C8BA20072AC22 /* 1st-violins-stc-rr2-a#5.aiff */,
-				91736183155C8BA20072AC22 /* 1st-violins-stc-rr2-a#6.aiff */,
-				91736184155C8BA20072AC22 /* 1st-violins-stc-rr2-c#4.aiff */,
-				91736185155C8BA20072AC22 /* 1st-violins-stc-rr2-c#5.aiff */,
-				91736186155C8BA20072AC22 /* 1st-violins-stc-rr2-c#6.aiff */,
-				91736187155C8BA20072AC22 /* 1st-violins-stc-rr2-e4.aiff */,
-				91736188155C8BA20072AC22 /* 1st-violins-stc-rr2-e5.aiff */,
-				91736189155C8BA20072AC22 /* 1st-violins-stc-rr2-e6.aiff */,
-				9173618A155C8BA20072AC22 /* 1st-violins-stc-rr2-g3.aiff */,
-				9173618B155C8BA20072AC22 /* 1st-violins-stc-rr2-g4.aiff */,
-				9173618C155C8BA20072AC22 /* 1st-violins-stc-rr2-g5.aiff */,
-				9173618D155C8BA20072AC22 /* 1st-violins-stc-rr2-g6.aiff */,
-			);
-			name = Samples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,34 +185,6 @@
 				9160E74C155B392A00DA3F8D /* Credits.rtf in Resources */,
 				9160E752155B392A00DA3F8D /* MainMenu.xib in Resources */,
 				9173616C155C88D40072AC22 /* windchime.png in Resources */,
-				9173618E155C8BA20072AC22 /* 1st-violins-stc-rr1-a#3.aiff in Resources */,
-				9173618F155C8BA20072AC22 /* 1st-violins-stc-rr1-a#4.aiff in Resources */,
-				91736190155C8BA20072AC22 /* 1st-violins-stc-rr1-a#5.aiff in Resources */,
-				91736191155C8BA20072AC22 /* 1st-violins-stc-rr1-a#6.aiff in Resources */,
-				91736192155C8BA20072AC22 /* 1st-violins-stc-rr1-c#4.aiff in Resources */,
-				91736193155C8BA20072AC22 /* 1st-violins-stc-rr1-c#5.aiff in Resources */,
-				91736194155C8BA20072AC22 /* 1st-violins-stc-rr1-c#6.aiff in Resources */,
-				91736195155C8BA20072AC22 /* 1st-violins-stc-rr1-e4.aiff in Resources */,
-				91736196155C8BA20072AC22 /* 1st-violins-stc-rr1-e5.aiff in Resources */,
-				91736197155C8BA20072AC22 /* 1st-violins-stc-rr1-e6.aiff in Resources */,
-				91736198155C8BA20072AC22 /* 1st-violins-stc-rr1-g3.aiff in Resources */,
-				91736199155C8BA20072AC22 /* 1st-violins-stc-rr1-g4.aiff in Resources */,
-				9173619A155C8BA20072AC22 /* 1st-violins-stc-rr1-g5.aiff in Resources */,
-				9173619B155C8BA20072AC22 /* 1st-violins-stc-rr1-g6.aiff in Resources */,
-				9173619C155C8BA20072AC22 /* 1st-violins-stc-rr2-a#3.aiff in Resources */,
-				9173619D155C8BA20072AC22 /* 1st-violins-stc-rr2-a#4.aiff in Resources */,
-				9173619E155C8BA20072AC22 /* 1st-violins-stc-rr2-a#5.aiff in Resources */,
-				9173619F155C8BA20072AC22 /* 1st-violins-stc-rr2-a#6.aiff in Resources */,
-				917361A0155C8BA20072AC22 /* 1st-violins-stc-rr2-c#4.aiff in Resources */,
-				917361A1155C8BA20072AC22 /* 1st-violins-stc-rr2-c#5.aiff in Resources */,
-				917361A2155C8BA20072AC22 /* 1st-violins-stc-rr2-c#6.aiff in Resources */,
-				917361A3155C8BA20072AC22 /* 1st-violins-stc-rr2-e4.aiff in Resources */,
-				917361A4155C8BA20072AC22 /* 1st-violins-stc-rr2-e5.aiff in Resources */,
-				917361A5155C8BA20072AC22 /* 1st-violins-stc-rr2-e6.aiff in Resources */,
-				917361A6155C8BA20072AC22 /* 1st-violins-stc-rr2-g3.aiff in Resources */,
-				917361A7155C8BA20072AC22 /* 1st-violins-stc-rr2-g4.aiff in Resources */,
-				917361A8155C8BA20072AC22 /* 1st-violins-stc-rr2-g5.aiff in Resources */,
-				917361A9155C8BA20072AC22 /* 1st-violins-stc-rr2-g6.aiff in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

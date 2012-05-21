@@ -151,7 +151,15 @@ enum {
     MusicDeviceMIDIEvent(synthUnit, kMidiMessageProgramChange + 2,
                          instrument, 0, 0);
     
-    __block int level = 1;
+    __block int level = 3;
+    
+    const int c = 24,
+        d = 26,
+        e = 28,
+        f = 29,
+        g = 31,
+        a = 33,
+        b = 35;
     
     [NSEvent
      addGlobalMonitorForEventsMatchingMask:NSKeyDownMask
@@ -161,32 +169,46 @@ enum {
          if ([[event characters] isEqualToString:@"["] ||
              [[event characters] isEqualToString:@"{"] ||
              [[event characters] isEqualToString:@"("]) {
-             note = 36 + (12 * level);
+             note = g + (12 * level);
              level++;
          }
          else if ([[event characters] isEqualToString:@"]"] ||
                   [[event characters] isEqualToString:@"}"] ||
                   [[event characters] isEqualToString:@")"]) {
+             note = c + (12 * level);
              level--;
-             note = 43 + (12 * level);
          }
          else if ([[event characters] isEqualToString:@"'"] ||
                   [[event characters] isEqualToString:@"\""]) {
              volume = 40;
-             note = 74;
+             note = d + (12 * level);
          }
          else if ([[event characters] isEqualToString:@";"] ||
                   [[event characters] isEqualToString:@","]) {
              volume = 40;
-             note = 76;
+             note = f + (12 * level);
+         }
+         else if ([[event characters] isEqualToString:@"."]) {
+             volume = 50;
+             note = b + (12 * level);
+         }
+         else if ([[event characters] isEqualToString:@"-"]) {
+             volume = 50;
+             note = a + (12 * level);
          }
          else if ([[event characters] isEqualToString:@" "]) {
-             volume = 40;
-             note = 57;
+             volume = 5;
+             note = c + (12 * level);
          }
-         if (level < 1) {
-             level = 1;
+         else if ([[event characters] isEqualToString:@":"]) {
+             volume = 20;
+             note = e + (12 * level);
          }
+         else {
+             note = (12 * level);
+         }
+         if (level < 3) { level = 3; }
+         if (level > 7) { level = 7; }
          if (note > 0) {
              MusicDeviceMIDIEvent(synthUnit,
                               kMidiMessageNoteOn,
