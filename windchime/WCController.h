@@ -9,11 +9,18 @@
 #import <Foundation/Foundation.h>
 
 @interface WCController : NSObject {
-// UI
-    NSStatusItem *statusItem;
-    NSMenu *menu;
-    NSMenuItem *quitMI;
-    NSMenuItem *aboutMI;
-    NSImage *tiny;
 }
+
+// UI
+@property (strong) NSStatusItem *statusItem;
+@property (strong) NSMenu *menu;
+@property (strong) NSMenuItem *quitMI;
+@property (strong) NSMenuItem *aboutMI;
+@property (strong) NSMenuItem *exportMI;
+@property (strong) NSImage *tiny;
+
+@property (strong) NSArray *instruments;
+@property (strong) NSMenuItem *instrumentMI;
+@property (strong) NSMenu *instrumentMenu;
+
 @end

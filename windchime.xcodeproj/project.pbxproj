@@ -157,7 +157,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WC;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = 9160E731155B392A00DA3F8D /* Build configuration list for PBXProject "windchime" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -281,6 +281,7 @@
 		9160E756155B392A00DA3F8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "windchime/windchime-Prefix.pch";
 				INFOPLIST_FILE = "windchime/windchime-Info.plist";
@@ -292,6 +293,7 @@
 		9160E757155B392A00DA3F8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "windchime/windchime-Prefix.pch";
 				INFOPLIST_FILE = "windchime/windchime-Info.plist";

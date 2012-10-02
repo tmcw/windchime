@@ -15,8 +15,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {     
-    WCController *wc = [WCController alloc];
-    [wc init];
+    self.wc = [[WCController alloc] init];
 }
 
 @end
