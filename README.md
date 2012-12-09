@@ -2,7 +2,9 @@
 
 windchime is a generative music system that adds another dimension to the act of composing written text, whether it be software or English.
 
-![](https://dl.dropbox.com/u/68059/Screenshots/_-oy1py7cnqe.png)
+[![](https://dl.dropbox.com/u/68059/Screenshots/_-oy1py7cnqe.png)](http://vimeo.com/52421539)
+
+(see [a video of this](http://vimeo.com/52421539))
 
 ## Using it
 
